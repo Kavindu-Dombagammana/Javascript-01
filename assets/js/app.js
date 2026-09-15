@@ -97,12 +97,30 @@
     
 // }
 
-let num1 = 9;
-let result = num1 % 2;
-if (result == 1) {
-    console.log("Its an odd number");
+// let num1 = 9;
+// let result = num1 % 2;
+// if (result == 1) {
+//     console.log("Its an odd number");
     
+// }else{
+//     console.log("Its an even number");
+    
+// }
+
+let marks = 80;
+
+if (marks >= 75) {
+    console.log("A");
+    
+}else if (marks >= 65) {
+    console.log("B");
+}else if (marks >= 55) {
+    console.log("C");
+}else if (marks >= 45) {
+    console.log("D");
+}else if (marks >= 35) {
+    console.log("S");
 }else{
-    console.log("Its an even number");
+    console.log("F");
     
 }
