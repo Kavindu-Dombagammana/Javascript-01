@@ -139,38 +139,99 @@
 // console.log("Bill : "+ bill);
 
 //Switch
-let day = 5;
+// let day = 5;
 
-switch (day) {
-    case 1:{
-        console.log("Monday");
-        break;
-    }
-    case 2:{
-        console.log("Tuesday");
-        break;
-    }
-    case 3:{
-        console.log("Wednessday");
-        break;
-    }
-    case 4:{
-        console.log("Thursday");
-        break;
-    }
-    case 5:{
-        console.log("Friday");
-        break;
-    }
-    case 6:{
-        console.log("Saturday");
-        break;
-    }
-    case 7:{
-        console.log("Sunday");
-        break;
-    }
-    default:
-        console.log("Invalid day");
-        break;
-}
+// switch (day) {
+//     case 1:{
+//         console.log("Monday");
+//         break;
+//     }
+//     case 2:{
+//         console.log("Tuesday");
+//         break;
+//     }
+//     case 3:{
+//         console.log("Wednessday");
+//         break;
+//     }
+//     case 4:{
+//         console.log("Thursday");
+//         break;
+//     }
+//     case 5:{
+//         console.log("Friday");
+//         break;
+//     }
+//     case 6:{
+//         console.log("Saturday");
+//         break;
+//     }
+//     case 7:{
+//         console.log("Sunday");
+//         break;
+//     }
+//     default:
+//         console.log("Invalid day");
+//         break;
+// }
+
+//Loops
+
+// for(let i = 0; i < 10; i++){
+//     console.log(i);
+    
+// }
+// let x = 10;
+// let runtime = true;
+// while (runtime) {
+//     console.log(x);
+//     if(x === 0){
+//         runtime = false;
+//     }
+//     x--;
+// }
+
+
+// do {
+//     console.log(x);
+//     if(x === 0){
+//         runtime = false;
+//     }
+//     x--;
+// } while (runtime);
+// let x = 1;
+// while (x <= 10) {
+//     console.log(x);
+//     x++
+    
+// }
+
+// let x = 10;
+// while (x >= 0) {
+//     console.log(x);
+//     x--;
+    
+// }
+
+// let x = 1;
+// let total =0;
+// while (x <= 10) {
+//     total += x;
+//     x++;
+// }
+// console.log(total);
+
+
+// let x = 1;
+// let result = 0;
+// while (x <=10) {
+//     result = x*5;
+//     console.log("5 X "+x+" = "+result);
+//     x++;
+// }
+// let x = 10;
+// do {
+//     console.log(x);
+//     x--;
+
+// } while (x >= 0);
