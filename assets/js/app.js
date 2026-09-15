@@ -125,13 +125,52 @@
     
 // }
 
-let unit = 120;
-let bill;
-if (unit <= 50) {
-    bill = unit * 10;
-}else if (unit <= 100) {
-    bill = unit * 15;
-}else {
-    bill = unit *20;
+//If Else
+
+// let unit = 120;
+// let bill;
+// if (unit <= 50) {
+//     bill = unit * 10;
+// }else if (unit <= 100) {
+//     bill = unit * 15;
+// }else {
+//     bill = unit *20;
+// }
+// console.log("Bill : "+ bill);
+
+//Switch
+let day = 5;
+
+switch (day) {
+    case 1:{
+        console.log("Monday");
+        break;
+    }
+    case 2:{
+        console.log("Tuesday");
+        break;
+    }
+    case 3:{
+        console.log("Wednessday");
+        break;
+    }
+    case 4:{
+        console.log("Thursday");
+        break;
+    }
+    case 5:{
+        console.log("Friday");
+        break;
+    }
+    case 6:{
+        console.log("Saturday");
+        break;
+    }
+    case 7:{
+        console.log("Sunday");
+        break;
+    }
+    default:
+        console.log("Invalid day");
+        break;
 }
-console.log("Bill : "+ bill);
