@@ -292,14 +292,25 @@
 
 //Arrays
 //Unlike in java arrays can store any type of data since its not type safe
-let Numbers = [1,"x",3,5,true,"Hello"];
-console.log(Numbers);
-console.log(Numbers[0]);
-console.log(typeof Numbers[0]);
-console.log(typeof Numbers[1]);
-console.log(typeof Numbers[2]);
-console.log(typeof Numbers[3]);
-console.log(typeof Numbers[4]);
-console.log(typeof Numbers[5]);
-console.log(typeof Numbers[6]);
-console.log(typeof Numbers);
+// let Numbers = [1,"x",3,5,true,"Hello"];
+// console.log(Numbers);
+// console.log(Numbers[0]);
+// console.log(typeof Numbers[0]);
+// console.log(typeof Numbers[1]);
+// console.log(typeof Numbers[2]);
+// console.log(typeof Numbers[3]);
+// console.log(typeof Numbers[4]);
+// console.log(typeof Numbers[5]);
+// console.log(typeof Numbers[6]);
+// console.log(typeof Numbers);
+
+// Objects
+let customer = {
+    name : "Saman",
+    age : 20,
+    address : "Kelaniya",
+    isActive : true
+}
+console.log(customer.name);
+console.log(customer);
+
