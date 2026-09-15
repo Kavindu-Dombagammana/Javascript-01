@@ -107,20 +107,31 @@
     
 // }
 
-let marks = 80;
+// let marks = 80;
 
-if (marks >= 75) {
-    console.log("A");
+// if (marks >= 75) {
+//     console.log("A");
     
-}else if (marks >= 65) {
-    console.log("B");
-}else if (marks >= 55) {
-    console.log("C");
-}else if (marks >= 45) {
-    console.log("D");
-}else if (marks >= 35) {
-    console.log("S");
-}else{
-    console.log("F");
+// }else if (marks >= 65) {
+//     console.log("B");
+// }else if (marks >= 55) {
+//     console.log("C");
+// }else if (marks >= 45) {
+//     console.log("D");
+// }else if (marks >= 35) {
+//     console.log("S");
+// }else{
+//     console.log("F");
     
+// }
+
+let unit = 120;
+let bill;
+if (unit <= 50) {
+    bill = unit * 10;
+}else if (unit <= 100) {
+    bill = unit * 15;
+}else {
+    bill = unit *20;
 }
+console.log("Bill : "+ bill);
