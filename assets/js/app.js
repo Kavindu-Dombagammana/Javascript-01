@@ -63,9 +63,46 @@
 // comparisons
 // >     <     >=     <=     ==     ===     !=
 
-let x = 10;
-let y = "10";
+// let x = 10;
+// let y = "10";
 
-console.log(x == y); // output is true because it only checks the value 
-console.log(x === y);// output is false because it checks the data type too 
-//other operators works same as the java
+// console.log(x == y); // output is true because it only checks the value 
+// console.log(x === y);// output is false because it checks the data type too 
+// //other operators works same as the java
+
+// Logical operations
+//     &&     ||     !
+
+// if(true && true){
+//     console.log("Both are true");
+    
+// }else{
+//     console.log("Only one is true");
+    
+// }
+
+// if(true || true){
+//     console.log("Atleast one is true");
+    
+// }else{
+//     console.log("none are true true");
+    
+// }
+
+// if(!true){
+//     console.log("It's false");
+    
+// }else{
+//     console.log("It's true");
+    
+// }
+
+let num1 = 9;
+let result = num1 % 2;
+if (result == 1) {
+    console.log("Its an odd number");
+    
+}else{
+    console.log("Its an even number");
+    
+}
