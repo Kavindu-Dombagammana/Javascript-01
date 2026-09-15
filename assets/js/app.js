@@ -244,48 +244,62 @@
 
 // Functions
 
-function myFunction() {
-    console.log("Hello World !");
+// function myFunction() {
+//     console.log("Hello World !");
     
-}
+// }
 
-myFunction();
-console.log(" ");
+// myFunction();
+// console.log(" ");
 
-for(let i =0; i < 10; i++){
-    myFunction();
-}
+// for(let i =0; i < 10; i++){
+//     myFunction();
+// }
 
-function addNumbers(x,y){
-    let total = x + y;
-    console.log(total);
+// function addNumbers(x,y){
+//     let total = x + y;
+//     console.log(total);
     
-}
+// }
 
-addNumbers(10,20);
+// addNumbers(10,20);
 
-function newFunction(x){
-    x++;
-    return x;
+// function newFunction(x){
+//     x++;
+//     return x;
 
-}
+// }
 
-let x = 10;
-console.log(x);
+// let x = 10;
+// console.log(x);
 
-let newX = newFunction(x);
-console.log(newX);
+// let newX = newFunction(x);
+// console.log(newX);
 
-// Arrow function
+// // Arrow function
 
-let age = () =>{
-    console.log("Im 22 years old");
+// let age = () =>{
+//     console.log("Im 22 years old");
     
-}
+// }
 
-age();
+// age();
 
-//Short vertion of above
-let score = () => console.log("New Score");
+// //Short vertion of above
+// let score = () => console.log("New Score");
 
-score();
+// score();
+
+//Arrays
+//Unlike in java arrays can store any type of data since its not type safe
+let Numbers = [1,"x",3,5,true,"Hello"];
+console.log(Numbers);
+console.log(Numbers[0]);
+console.log(typeof Numbers[0]);
+console.log(typeof Numbers[1]);
+console.log(typeof Numbers[2]);
+console.log(typeof Numbers[3]);
+console.log(typeof Numbers[4]);
+console.log(typeof Numbers[5]);
+console.log(typeof Numbers[6]);
+console.log(typeof Numbers);
