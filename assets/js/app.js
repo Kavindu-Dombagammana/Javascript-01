@@ -235,3 +235,57 @@
 //     x--;
 
 // } while (x >= 0);
+
+// for (let index = 0; index < 10; index++) {
+//     console.log("Hello world !");
+    
+    
+// }
+
+// Functions
+
+function myFunction() {
+    console.log("Hello World !");
+    
+}
+
+myFunction();
+console.log(" ");
+
+for(let i =0; i < 10; i++){
+    myFunction();
+}
+
+function addNumbers(x,y){
+    let total = x + y;
+    console.log(total);
+    
+}
+
+addNumbers(10,20);
+
+function newFunction(x){
+    x++;
+    return x;
+
+}
+
+let x = 10;
+console.log(x);
+
+let newX = newFunction(x);
+console.log(newX);
+
+// Arrow function
+
+let age = () =>{
+    console.log("Im 22 years old");
+    
+}
+
+age();
+
+//Short vertion of above
+let score = () => console.log("New Score");
+
+score();
